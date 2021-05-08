@@ -1,0 +1,35 @@
+{
+  "name": "@jmosawy/semantic-release-config",
+  "version": "1.0.0",
+  "description": "shareable configuration of Semantic Release",
+  "main": ".releaserc.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmosawy/semantic-release-config.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "config",
+    "jmosawy"
+  ],
+  "author": {
+    "name": "Jeff Mosawy",
+    "email": "me@jmosawy.com",
+    "url": "https://jmosawy.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmosawy/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/jmosawy/semantic-release-config#readme",
+  "devDependencies": {
+    "@jmosawy/prettier-config": "^1.1.0",
+    "prettier": "^2.2.1",
+    "semantic-release": "^17.4.2"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "conventional-changelog-conventionalcommits": "^4.6.0"
+  }
+}
