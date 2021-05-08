@@ -9,4 +9,16 @@ An opinionated and re-usable [Semantic Release](https://github.com/semantic-rele
 
 ## Installation and usage
 
-To be written...
+1. Install `semantic-release` and `@jmosawy/semantic-release-config`:
+
+```bash
+npm i semantic-release @jmosawy/semantic-release-config -D
+```
+
+2. Extend `@jmosawy/semantic-release-config` in your [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
+
+```json
+{
+  "extends": "@jmosawy/semantic-release-config"
+}
+```
